@@ -2,6 +2,8 @@ import React from 'react';
 
 // Import your images (LeetCode streak, CodeChef, CodeForces logos, etc.)
 import leetcodeLogo from '../assets/Leetcode.png';
+
+import texas from '../assets/texas.jpg';
 import codechefLogo from '../assets/codechef.jpeg';
 import codeforcesLogo from '../assets/codeforces.jpeg';
 import leetcodeStreakImage from '../assets/leetcode-streak.png';  // Your streak image for LeetCode
@@ -19,6 +21,36 @@ const About = () => {
       <p className="text-center text-lg mb-8 text-gray-700 font-serif">
         I'm a Computer Science and Engineering student passionate about coding, technology, and solving real-world problems through innovative solutions.
       </p>
+
+{/* Texas Instruments WISE Hackathon Achievement */}
+<div className="flex items-center mb-12 bg-gradient-to-r from-white to-blue-50 p-8 rounded-lg shadow-md border border-gray-300">
+  <div className="flex-none w-24 h-24 md:w-28 md:h-28 lg:w-32 lg:h-32">
+    <img
+      src={texas}
+      alt="Texas Instruments Logo"
+      className="w-full h-full object-contain rounded-lg border border-gray-300"
+    />
+  </div>
+  <div className="ml-6 flex-1">
+    <h4 className="text-2xl font-semibold text-gray-800">Texas Instruments WISE Hackathon</h4>
+    <p className="text-md text-gray-600 mb-4">
+      Selected among the <b>Top 60 girls across India</b> in the prestigious 
+      <b> Texas Instruments Women (WISE) Program </b>. 
+      Demonstrated innovation, problem-solving skills, and technical excellence in this highly competitive event.
+    </p>
+    <a
+      href="https://drive.google.com/file/d/12q-F7mmVMhNOXRTpQji2DVGJuDHjT3ld/view?usp=sharing"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-md text-blue-600 font-semibold underline hover:text-blue-500 transition-all duration-300"
+    >
+      View Selection Mail Round 2
+    </a>
+  </div>
+</div>
+
+
+
 
       {/* Coding Achievements Section */}
       <h3 className="text-3xl font-semibold mt-12 mb-6 text-center text-gray-800 font-serif">Coding Achievements</h3>
@@ -45,7 +77,7 @@ const About = () => {
               alt="LeetCode Streak"
               className="w-32 h-32 rounded-full border-4 border-white"
             />
-            <span className="ml-4 text-lg text-white font-semibold">Max. Rating: 1575</span>
+            <span className="ml-4 text-lg text-white font-semibold">Max. Rating: 1675</span>
           </div>
         </div>
       </div>

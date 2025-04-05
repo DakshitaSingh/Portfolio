@@ -1,27 +1,26 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Import router
-import Header from "./components/Header"; // Import Header component
-import Home from "./pages/Home"; // Import Home page
-import Projects from "./pages/Projects"; // Import Projects page
-import About from "./pages/About"; // Import About page
-import Contact from "./pages/Contact"; // Import Contact page
-import Footer from './components/Footer'; // Import Footer component
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Chatbot from "./pages/Chatbot";
+import Contests from "./pages/Contests"; // ✅ New Contests Page
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
-      {/* Always render Header on every page */}
       <Header />
-      
-      {/* Define the routes for different pages */}
       <Routes>
-        <Route path="/" element={<Home />} /> {/* Home page (with typing effect) */}
+        <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/chatbot" element={<Chatbot />} />
+        <Route path="/contests" element={<Contests />} /> {/* ✅ Contests Route */}
       </Routes>
-      
-      {/* Always render Footer on every page */}
       <Footer />
     </Router>
   );
