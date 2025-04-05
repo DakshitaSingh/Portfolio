@@ -1,29 +1,26 @@
-🚀 Personal Portfolio – Dakshita Singh
-An interactive and dynamic portfolio website built with React and Tailwind CSS, featuring cutting-edge integrations to showcase skills, projects, and personality.
+# 🚀 Personal Portfolio – Dakshita Singh
 
-🔗 Live Site
-👉 View Portfolio
+An interactive and dynamic portfolio website built with **React** and **Tailwind CSS**, featuring cutting-edge integrations to showcase skills, projects, and personality.
 
-✨ Features
-Modern and responsive UI
+## 🔗 Live Site  
+[👉 View Portfolio](https://your-portfolio-link.com)
 
-Dark/Light mode toggle
+---
 
-AI-powered Chatbot (Gemini API)
+## ✨ Features
 
-Voice interaction using Web Speech API
+- ⚡ Modern and responsive UI  
+- 🤖 AI-powered Chatbot (Gemini API)  
+- 🎙️ Voice interaction using Web Speech API  
+- 📊 Codeforces API integration for real-time problem-solving stats  
+- 💫 Animated typing effects, hover transitions, and mobile-friendly design  
 
-Codeforces API integration for real-time problem-solving stats
+---
 
-Animated typing effects, hover transitions, and mobile-friendly design
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
-Framework: React.js
-
-Styling: Tailwind CSS
-
-APIs: Gemini API, Codeforces API, Web Speech API
-
-Routing: React Router
-
-Deployment: Vercel / Netlify
+- **Framework:** React.js  
+- **Styling:** Tailwind CSS  
+- **APIs:** Gemini API, Codeforces API, Web Speech API  
+- **Routing:** React Router  
+- **Deployment:** Vercel / Netlify  
