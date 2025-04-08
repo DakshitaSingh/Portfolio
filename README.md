@@ -3,7 +3,7 @@
 An interactive and dynamic portfolio website built with **React** and **Tailwind CSS**, featuring cutting-edge integrations to showcase skills, projects, and personality.
 
 ## 🔗 Live Site  
-[👉 View Portfolio](https://your-portfolio-link.com)
+[👉 View Portfolio](https://portfolio-inky-chi-95.vercel.app/)
 
 ---
 
