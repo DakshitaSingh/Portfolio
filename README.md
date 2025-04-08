@@ -23,4 +23,4 @@ An interactive and dynamic portfolio website built with **React** and **Tailwind
 - **Styling:** Tailwind CSS  
 - **APIs:** Gemini API, Codeforces API, Web Speech API  
 - **Routing:** React Router  
-- **Deployment:** Vercel / Netlify  
+- **Deployment:** Vercel  
