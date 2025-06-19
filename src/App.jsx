@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Chatbot from "./pages/Chatbot";
 import Contests from "./pages/Contests"; // ✅ New Contests Page
+import Extension from "./pages/Extension"; // ✅ New Contests Page
 import Footer from "./components/Footer";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/chatbot" element={<Chatbot />} />
+        <Route path="/extension" element={<Extension />} />
         <Route path="/contests" element={<Contests />} /> {/* ✅ Contests Route */}
       </Routes>
       <Footer />

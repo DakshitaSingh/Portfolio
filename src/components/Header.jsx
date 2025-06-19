@@ -17,6 +17,7 @@ const Header = () => {
     "CONTACT",
     "CHATBOT",
     "CONTESTS",
+    "EXTENSION"
   ];
 
   return (
